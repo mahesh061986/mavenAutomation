@@ -22,6 +22,7 @@ public class LoginPage extends BaseClass {
 	}
 	
 	public String getTitle() {
+		waitForPageLoad();
 		Reporter.log("LoginPage Title:: "+driver.getTitle(),true);
 		return driver.getTitle();
 	}
@@ -34,6 +35,7 @@ public class LoginPage extends BaseClass {
 		waitmethod();
 		loginButton.click();
 		Reporter.log("Clicked on Login Button",true);
+		waitForPageLoad();
 	}
 	
 

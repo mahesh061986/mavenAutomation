@@ -2,16 +2,10 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[LoginPage Title:: #1 Free CRM software in the cloud for sales and service]]>
+      <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
     </line>
     <line>
-      <![CDATA[Entered Username :maheshn]]>
-    </line>
-    <line>
-      <![CDATA[Entered Password:test@123]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Login Button]]>
+      <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
     </line>
     <line>
       <![CDATA[LoginPage Title:: #1 Free CRM software in the cloud for sales and service]]>
@@ -24,14 +18,56 @@
     </line>
     <line>
       <![CDATA[Clicked on Login Button]]>
+    </line>
+    <line>
+      <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+    </line>
+    <line>
+      <![CDATA[Switched to MainPanel Frame]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Logout Button]]>
+    </line>
+    <line>
+      <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+    </line>
+    <line>
+      <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+    </line>
+    <line>
+      <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage Title:: #1 Free CRM software in the cloud for sales and service]]>
+    </line>
+    <line>
+      <![CDATA[Entered Username :maheshn]]>
+    </line>
+    <line>
+      <![CDATA[Entered Password:test@123]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Login Button]]>
+    </line>
+    <line>
+      <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+    </line>
+    <line>
+      <![CDATA[Switched to MainPanel Frame]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Logout Button]]>
+    </line>
+    <line>
+      <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-01-09T07:34:18Z" name="Suite" finished-at="2019-01-09T07:35:07Z" duration-ms="49747">
+  <suite started-at="2019-01-12T04:45:33Z" name="Suite" finished-at="2019-01-12T04:46:06Z" duration-ms="32649">
     <groups>
     </groups>
-    <test started-at="2019-01-09T07:34:18Z" name="FirefoxTest" finished-at="2019-01-09T07:34:46Z" duration-ms="28355">
+    <test started-at="2019-01-12T04:45:33Z" name="FirefoxTest" finished-at="2019-01-12T04:45:53Z" duration-ms="19495">
       <class name="com.qa.test.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.test.LoginTest@55b0dcab]" started-at="2019-01-09T13:04:18Z" name="setUp" finished-at="2019-01-09T13:04:34Z" duration-ms="16567" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.test.LoginTest@55b0dcab]" started-at="2019-01-12T10:15:33Z" name="setUp" finished-at="2019-01-12T10:15:45Z" duration-ms="11658" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,10 +76,16 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.qa.test.LoginTest@55b0dcab]" started-at="2019-01-09T13:04:34Z" name="verifyLogin" finished-at="2019-01-09T13:04:45Z" duration-ms="10946" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:com.qa.test.LoginTest@55b0dcab]" started-at="2019-01-12T10:15:45Z" name="verifyLogin" finished-at="2019-01-12T10:15:52Z" duration-ms="7263" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+            </line>
             <line>
               <![CDATA[LoginPage Title:: #1 Free CRM software in the cloud for sales and service]]>
             </line>
@@ -56,76 +98,29 @@
             <line>
               <![CDATA[Clicked on Login Button]]>
             </line>
+            <line>
+              <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+            </line>
+            <line>
+              <![CDATA[Switched to MainPanel Frame]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Logout Button]]>
+            </line>
+            <line>
+              <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.LoginTest@55b0dcab]" started-at="2019-01-09T13:04:45Z" name="tearDown" finished-at="2019-01-09T13:04:46Z" duration-ms="814" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'BRIMACLAP096.local', ip: 'fe80:0:0:0:1cb6:8c54:21c2:d8b4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '11.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 6942, moz:profile: /var/folders/2k/x5yvx10x5h1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c76ff197-3f58-6f4b-918f-dd00db4990c3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'BRIMACLAP096.local', ip: 'fe80:0:0:0:1cb6:8c54:21c2:d8b4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '11.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 6942, moz:profile: /var/folders/2k/x5yvx10x5h1..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c76ff197-3f58-6f4b-918f-dd00db4990c3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:448)
-	at com.qa.test.LoginTest.tearDown(LoginTest.java:28)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.LoginTest@55b0dcab]" started-at="2019-01-12T10:15:52Z" name="tearDown" finished-at="2019-01-12T10:15:53Z" duration-ms="557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.test.LoginTest -->
     </test> <!-- FirefoxTest -->
-    <test started-at="2019-01-09T07:34:46Z" name="ChromeTest" finished-at="2019-01-09T07:35:07Z" duration-ms="21053">
+    <test started-at="2019-01-12T04:45:53Z" name="ChromeTest" finished-at="2019-01-12T04:46:06Z" duration-ms="12874">
       <class name="com.qa.test.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.test.LoginTest@394df057]" started-at="2019-01-09T13:04:46Z" name="setUp" finished-at="2019-01-09T13:04:57Z" duration-ms="11129" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.test.LoginTest@394df057]" started-at="2019-01-12T10:15:53Z" name="setUp" finished-at="2019-01-12T10:15:58Z" duration-ms="4989" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,10 +129,16 @@ Session ID: c76ff197-3f58-6f4b-918f-dd00db4990c3
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.qa.test.LoginTest@394df057]" started-at="2019-01-09T13:04:57Z" name="verifyLogin" finished-at="2019-01-09T13:05:07Z" duration-ms="9646" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:com.qa.test.LoginTest@394df057]" started-at="2019-01-12T10:15:58Z" name="verifyLogin" finished-at="2019-01-12T10:16:06Z" duration-ms="7722" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+            </line>
             <line>
               <![CDATA[LoginPage Title:: #1 Free CRM software in the cloud for sales and service]]>
             </line>
@@ -150,9 +151,21 @@ Session ID: c76ff197-3f58-6f4b-918f-dd00db4990c3
             <line>
               <![CDATA[Clicked on Login Button]]>
             </line>
+            <line>
+              <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+            </line>
+            <line>
+              <![CDATA[Switched to MainPanel Frame]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Logout Button]]>
+            </line>
+            <line>
+              <![CDATA[Wait for few seconds let the page to be loaded successfully.............]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.LoginTest@394df057]" started-at="2019-01-09T13:05:07Z" name="tearDown" finished-at="2019-01-09T13:05:07Z" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.LoginTest@394df057]" started-at="2019-01-12T10:16:06Z" name="tearDown" finished-at="2019-01-12T10:16:06Z" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
